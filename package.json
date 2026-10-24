@@ -1,0 +1,6 @@
+{
+  "name": "mosaico-nomada", "version": "1.0.0", "private": true,
+  "type": "module", "description": "Seis puzles originales de encaje espacial.",
+  "scripts": { "start": "node scripts/serve.mjs", "check": "node scripts/check.mjs", "test": "node --test tests/*.test.mjs", "solve": "node scripts/solve.mjs" },
+  "engines": { "node": ">=22" }
+}

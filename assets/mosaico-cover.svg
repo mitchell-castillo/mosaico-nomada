@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+ <title id="title">Mosaico Nómada</title><desc id="desc">Una composición original de retazos de arcilla, turquesa y ocre sobre una silueta verde, con una pieza que espera su lugar.</desc>
+ <defs><pattern id="paper" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="2" cy="3" r=".7" fill="#fff" opacity=".16"/><circle cx="11" cy="9" r=".6" fill="#000" opacity=".12"/></pattern><pattern id="stitch" width="20" height="20" patternUnits="userSpaceOnUse"><path d="m2 16 14-14" stroke="#fff" stroke-width="1.5" opacity=".12"/></pattern></defs>
+ <path fill="#f1ebdc" d="M0 0h1200v720H0z"/><path fill="url(#paper)" d="M0 0h1200v720H0z"/>
+ <path d="M70 80h1060" stroke="#b5bba9"/><text x="70" y="58" fill="#143f3b" font-family="system-ui,sans-serif" font-size="15" letter-spacing="3">UN JUEGO CADA DÍA</text><text x="1130" y="58" text-anchor="end" fill="#143f3b" font-family="system-ui,sans-serif" font-size="15" letter-spacing="2">N.º 007 / 24 OCT 2026</text>
+ <text x="70" y="256" fill="#143f3b" font-family="Georgia,serif" font-size="86" letter-spacing="-4">Mosaico</text><text x="67" y="348" fill="#b64b34" font-family="Georgia,serif" font-size="86" font-style="italic" letter-spacing="-4">Nómada</text>
+ <text x="73" y="414" fill="#4e675a" font-family="system-ui,sans-serif" font-size="21">Seis paisajes. Un puñado de formas.</text><text x="73" y="451" fill="#4e675a" font-family="system-ui,sans-serif" font-size="21">Encuentra el lugar de cada retazo.</text>
+ <rect x="72" y="509" width="210" height="47" rx="23.5" fill="#143f3b"/><text x="177" y="539" text-anchor="middle" fill="#f5f1e6" font-family="system-ui,sans-serif" font-size="14" letter-spacing="1.4">GIRA · PRUEBA · ENCAJA</text>
+ <g transform="translate(650 159) rotate(6 200 200)"><rect x="-19" y="-19" width="440" height="440" rx="24" fill="#244e43"/>
+ <path fill="#cb7052" d="M0 0h96v96H0zm0 102h96v96H0zm0 102h96v96H0zM0 306h96v96H0z"/>
+ <path fill="#e8bc6b" d="M102 0h96v96h-96zm102 0h96v96h-96zm102 0h96v96h-96zm-102 102h96v96h-96z"/>
+ <path fill="#6c9290" d="M306 102h96v96h-96zm0 102h96v96h-96zm0 102h96v96h-96zm-102 0h96v96h-96z"/>
+ <path fill="#f1e6cc" d="M102 102h96v96h-96zm0 102h96v96h-96zm102 0h96v96h-96zM102 306h96v96h-96z"/>
+ <path fill="url(#stitch)" d="M0 0h402v402H0z"/>
+ <circle cx="17" cy="17" r="5" fill="#fff3d8"/><circle cx="119" cy="17" r="5" fill="#27483b"/><circle cx="323" cy="119" r="5" fill="#fff3d8"/>
+ <text x="47" y="63" text-anchor="middle" fill="#fff3d8" font-family="Georgia,serif" font-size="31">A</text><text x="150" y="63" text-anchor="middle" fill="#27483b" font-family="Georgia,serif" font-size="31">B</text><text x="355" y="165" text-anchor="middle" fill="#fff3d8" font-family="Georgia,serif" font-size="31">C</text></g>
+ <g transform="translate(568 467) rotate(-14)"><path fill="#756b9e" stroke="#f1ebdc" stroke-width="5" d="M0 0h65v66h65v65H65v66H0z"/><path d="M0 66h65M0 132h65M65 66v66" stroke="#f1ebdc" stroke-width="5"/><circle cx="14" cy="14" r="4" fill="#fff"/></g>
+ <path d="m577 415 25-24m-11 0h11v11" fill="none" stroke="#b64b34" stroke-width="2.5" stroke-linecap="round"/>
+ <path d="M70 644h1060" stroke="#b5bba9"/><text x="72" y="679" fill="#4e675a" font-family="system-ui,sans-serif" font-size="14" letter-spacing="2">ENCAJE ESPACIAL / SEIS MOSAICOS ORIGINALES</text><text x="1130" y="679" text-anchor="end" fill="#4e675a" font-family="system-ui,sans-serif" font-size="14">Sin reloj, a tu ritmo.</text>
+</svg>

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#143f3b">
+  <meta name="description" content="Seis paisajes para tejer con piezas. Un puzle original de encaje, sin reloj ni prisas.">
+  <title>Mosaico Nómada · Un juego cada día</title>
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css"><script type="module" src="./src/app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#board">Saltar al tablero</a>
+  <header class="site-header"><a class="collection" href="https://mitchell-castillo.github.io/daily-games/">← Un juego cada día</a><span class="edition">N.º 007 <span aria-hidden="true">/</span> 24 OCT 2026</span></header>
+  <main>
+    <section class="intro" aria-labelledby="title"><div><p class="eyebrow">UN VIAJE, PIEZA A PIEZA</p><h1 id="title">Mosaico <em>Nómada</em><span class="title-mark" aria-hidden="true">✳</span></h1><p class="lead">Seis paisajes. Un puñado de formas.<br>Encuentra el lugar de cada retazo.</p></div><div class="intro-note"><span aria-hidden="true">↻</span><p>Gira. Prueba. Encaja.<br><strong>Sin reloj, a tu ritmo.</strong></p></div></section>
+    <nav id="levels" class="journey" aria-label="Los seis tableros"></nav>
+    <section class="workshop" aria-label="Taller de mosaicos">
+      <div class="canvas-panel">
+        <div class="panel-heading"><div><p class="eyebrow" id="chapter"></p><h2 id="level-title"></h2></div><span class="seal" id="area-count"></span></div>
+        <p id="level-subtitle" class="subtitle"></p>
+        <div class="board-frame"><div id="board" class="board" role="group" tabindex="-1" aria-label="Tablero de encaje" aria-describedby="anchor-note"></div></div>
+        <div class="canvas-bottom"><span id="filled"></span><span id="moves"></span></div>
+        <p id="anchor-note" class="anchor-note">El punto <b>•</b> marca el ancla: la primera casilla de la fila superior de la pieza. Coloca ese punto en la casilla que pulses.</p>
+      </div>
+      <aside class="tool-panel" aria-label="Piezas y controles">
+        <div class="tray-heading"><h2>Tus retazos</h2><span id="pieces-left"></span></div>
+        <p class="muted">1. Elige una pieza <span aria-hidden="true">→</span> 2. Gira <span aria-hidden="true">→</span> 3. Pulsa su ancla</p>
+        <div id="pieces" class="pieces" aria-label="Bandeja de piezas"></div>
+        <div id="selection" class="selection">Elige una pieza de la bandeja.</div>
+        <div class="primary-tools"><button id="rotate" type="button">↻ Girar <kbd>R</kbd></button><button id="cancel" type="button">Cancelar <kbd>Esc</kbd></button></div>
+        <button id="remove" class="quiet wide" type="button">↥ Retirar pieza <kbd>Supr</kbd></button>
+        <p id="preview-status" class="preview-status" aria-live="off"></p>
+        <div class="divider"></div>
+        <div class="secondary-tools"><button id="undo" class="quiet" type="button">↶ Deshacer <kbd>Z</kbd></button><button id="reset" class="quiet" type="button">Reiniciar</button></div>
+        <p id="status" class="status" role="status" aria-live="polite" aria-atomic="true"></p>
+        <div id="success" class="success" hidden><p id="success-text"></p><button id="next" class="next" type="button">Siguiente paisaje →</button></div>
+        <p id="storage-warning" class="warning" role="alert" hidden>No se pudo recuperar o guardar el avance. Puedes jugar; el progreso podría perderse al cerrar o recargar.</p>
+      </aside>
+    </section>
+    <details class="instructions"><summary>Cómo jugar y controles</summary><div class="instruction-body"><p>Cubre todas las casillas claras usando todas las piezas una vez, sin superponerlas ni salir de la silueta. Los huecos oscuros quedan libres. Se puede girar en pasos de 90°, sin reflejar las piezas.</p><p><strong>Ratón o táctil:</strong> selecciona una pieza, pulsa Girar si hace falta y toca la casilla donde irá su ancla. No necesitas arrastrar. Para mover una pieza colocada, selecciónala desde la bandeja o el tablero y pulsa otra casilla. Retirar la devuelve a la bandeja.</p><p><strong>Teclado:</strong> Tab recorre los controles; Enter o Espacio los activa. En el tablero, las flechas recorren casillas y Enter coloca la selección. R gira a la derecha; Q, a la izquierda; Escape cancela; Z deshace; Supr retira. Los atajos se suspenden mientras confirmas un reinicio.</p><p><strong>Tu viaje:</strong> completar un paisaje abre el siguiente. Puedes volver a los anteriores sin perder los intentos. Reiniciar pide confirmación y afecta solo al tablero actual; las medallas completadas se conservan. Deshacer conserva hasta 200 cambios por tablero, también tras recargar. No hay límite de intentos.</p><p id="hint"></p></div></details>
+    <footer><span>Hecho para encajar, sin prisas.</span><span>Avance solo en este navegador · Sin cuentas ni seguimiento</span></footer>
+  </main>
+  <dialog id="reset-dialog" aria-labelledby="reset-title" aria-describedby="reset-description"><div class="dialog-content"><p class="eyebrow">VOLVER A EMPEZAR</p><h2 id="reset-title">¿Reiniciar este paisaje?</h2><p id="reset-description">Se retirarán sus piezas y su historial de deshacer. Tus paisajes completados y los otros intentos se conservan.</p><div class="dialog-actions"><button id="keep" class="quiet" type="button" autofocus>Seguir jugando</button><button id="confirm" type="button">Sí, reiniciar</button></div></div></dialog>
+  <noscript><p class="warning">Activa JavaScript para jugar a Mosaico Nómada.</p></noscript>
+</body></html>
